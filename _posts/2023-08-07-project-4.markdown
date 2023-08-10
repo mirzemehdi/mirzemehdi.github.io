@@ -1,9 +1,9 @@
 ---
 layout: default
 modal-id: 4
-date: 2014-07-15
+date: 2023-08-07
 img: ReseptronCourier.png
-alt: reseptron-courier-alt
+alt: reseptron-courier
 title: Reseptron Courier
 # project-date: April 2014
 project-link: https://play.google.com/store/apps/details?id=az.reseptron.courier&hl=en&gl=US

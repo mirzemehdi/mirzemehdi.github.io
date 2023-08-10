@@ -1,9 +1,9 @@
 ---
 layout: default
 modal-id: 5
-date: 2014-07-14
+date: 2023-08-06
 img: RabitaBank.png
-alt: rabitabank-alt
+alt: rabitabank
 title: RabitaBank
 project-link: https://play.google.com/store/apps/details?id=com.rabitabank&hl=en&gl=US
 # project-date: April 2014
