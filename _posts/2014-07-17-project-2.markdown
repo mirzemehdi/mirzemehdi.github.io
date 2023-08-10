@@ -1,11 +1,12 @@
 ---
 layout: default
 modal-id: 2
+title: Quotes MultiPlatform App
 date: 2014-07-17
-img: cake.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+img: QuotesApp.png
+alt: quotesapp-alt
+source-code-link: https://github.com/mirzemehdi/quotesapp
+# project-date: June 2023
+
+description: Quotes app is my open source project that targets Android, iOS and Desktop platforms, and is developed using Kotlin Multiplatform, JetBrains Compose Multiplatform, App Modularization, Clean Architecture and other Jetpack Components and multiplatform libraries. Project is developed in TDD (Test Driven Development) style by writing Unit and UI tests.
 ---

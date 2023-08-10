@@ -1,11 +1,11 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://github.com/jeromelachaud/freelancer-theme
+title: Mirzamehdi Karimov
+email: xbjvglqe # https://formspree.io/f/xbjvglqe
+url: https://github.com/mirzemehdi/mirzemehdi.github.io
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Android Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+keywords: "android, kotlin, java, android developer, kotlin multiplatform, mobile developer, android app developer, mirzamehdi, mirzemehdi, mirzamehdi karimov, android developer mirzamehdi karimov"
+skills: "Android Developer - Kotlin - Java"
+meta_author: Mirzamehdi Karimov
 
 # Google webmaster tools
 google_verify:
@@ -32,31 +32,28 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Mirzamehdi Karimov
   location: Location
-  social: Around the Web
+  social: My Social Networks
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+  - title: linkedin
+    url: https://www.linkedin.com/in/mirzemehdi/
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/mirzemehdi/
+  - title: twitter
+    url: https://twitter.com/mirze_mehdi
+  - title: medium
+    url: https://medium.com/@mirzemehdi
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Budapest, Hungary
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Theme created by <a href="https://github.com/jeromelachaud/freelancer-theme">Freelancer Jekyll theme</a>.'
 
 # Build settings
 markdown: kramdown

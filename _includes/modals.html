@@ -36,8 +36,21 @@
               </li>
               {% endif %}
             </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
+            {% if post.project-link %}
+            <a href="{{ post.project-link }}" class="google-play-button btn btn-primary" target="_blank">
+              <i class="fab fa-google-play"></i> View on PlayStore
+            </a>
+            <br>
+            <br>
+            {% endif %}
+            {% if post.source-code-link %}
+            <a href="{{ post.source-code-link }}" class="github-button btn btn-primary" target="_blank">
+              <i class="fab fa-github"></i> Source Code
+            </a>
+            <br>
+            <br>
+            {% endif %}
+            <button type="button" class="btn btn-default mt-4" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
           </div>
         </div>
       </div>

@@ -2,10 +2,12 @@
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: circus.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+title: Reseptron Customer
+img: ReseptronCustomer.png
+alt: reseptroncustomerapp-alt
+project-link: https://play.google.com/store/apps/details?id=az.reseptron.patient
+# project-date: June 2021
+# client: Reseptron
+# category: Android App
+description: Reseptron allows patients to scan their prescriptions and send them to order in pharmacies across the country. The patient can send an e-prescription order by choosing from the pharmacy offers. User can get a medicine from either from a pharmacy or, delivery service is also provided.
 ---

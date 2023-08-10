@@ -2,10 +2,18 @@
 layout: default
 modal-id: 4
 date: 2014-07-15
-img: game.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+img: ReseptronCourier.png
+alt: reseptron-courier-alt
+title: Reseptron Courier
+# project-date: April 2014
+project-link: https://play.google.com/store/apps/details?id=az.reseptron.courier&hl=en&gl=US
+
+# client: Reseptron
+# category: Android App
+description:  "<p>With Reseptron Courier app, couriers can track their orders and statistics ordered with Reseptron Customer app. The main functionalities of the app: </p>  
+ <p>-Selection of required statuses during acceptance and transportation of orders </ul></p>
+ <p>-View the location of pharmacy and delivery of the order </p>
+ <p>-Obtaining information about order history </p>
+ <p>-Sending a notification to the operator if there is any problem with the order </p>
+<p>-Information on order statistics </p>" 
 ---

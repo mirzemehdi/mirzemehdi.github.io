@@ -1,11 +1,15 @@
 ---
 layout: default
 modal-id: 6
-date: 2014-07-15
-img: submarine.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+date: 2014-07-13
+img: EasyWayTaxi.png
+title: EasyWay Taxi
+alt: easyway-taxi-alt
+# project-date: April 2014
+# client: EasyWay
+# category: Android app
+description: "EasyWay is taxi application! Real-time driver location tracking, instant push notifications, get fare estimates, review ride history, and rate drivers for transparency. EasyWay Taxi app supports multiple languages.
+<p> Currently Unavailable in Play Store </p>
+
+"
 ---
