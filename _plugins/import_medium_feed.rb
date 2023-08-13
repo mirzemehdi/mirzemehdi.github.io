@@ -27,6 +27,7 @@ def generate(site)
         doc.data['link'] = item['link'];
         doc.data['date'] = item['pubDate'];
         doc.data['categories'] = item['categories'];
+        doc.data['author'] = item['author'];
         html_document = Nokogiri::HTML(item['description']);
         doc.data['description'] = html_document.search('p').to_html;
         jekyll_coll.docs << doc
