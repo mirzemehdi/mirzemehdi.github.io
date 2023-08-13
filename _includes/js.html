@@ -19,6 +19,53 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="{{ " js/freelancer.js" }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+    
+    const swiper = new Swiper('.js-testimonials-slider', {
+
+        grabCursor: false,
+        spaceBetween: 30,
+
+        // loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.js-testimonials-pagination',
+            clickable: true
+        },
+
+        breakpoints: {
+            960: {
+                slidesPerView: 3
+
+            },
+            767: {
+                slidesPerView: 2
+            },
+            640: {
+                slidesPerView: 2
+            }
+        },
+
+        autoplay: {
+            delay: 1500,
+            disableOnInteraction: false,
+        }
+
+        // // Navigation arrows
+        // navigation: {
+        //     nextEl: '.swiper-button-next',
+        //     prevEl: '.swiper-button-prev',
+        // },
+
+        // // And if we need scrollbar
+        // scrollbar: {
+        //     el: '.swiper-scrollbar',
+        // },
+    });
+
+</script>
 
 {% if site.contact == "disqus" %}
 <!-- Disqus Stuff -->

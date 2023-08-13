@@ -1,0 +1,32 @@
+<!-- Blogs Section -->
+<section id="testimonials">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Testimonials</h2>
+                <hr class="star-primary">
+            </div>
+        </div>
+        <div class="testimonials-content">
+            <div class="swiper testimonials-slider js-testimonials-slider">
+                <div class="swiper-wrapper">
+                    <!-- Testimonial  -->
+                    {% assign sorted_testimonials = site.testimonials | sort: 'order' %}
+                    {% for testimonial in sorted_testimonials %}
+                    <div class="swiper-slide testimonials-item">
+                        <div class="info">
+                            <div class="text-box">
+                                <h3 class="name">{{ testimonial.name }}</h3>
+                                <span class="job">{{ testimonial.job_title }}</span>
+                            </div>
+                        </div>
+                        <p> <i>{{ testimonial.description }} </i></p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+             <div class="swiper-pagination js-testimonials-pagination"></div>
+        </div>
+        
+    </div>
+</section>

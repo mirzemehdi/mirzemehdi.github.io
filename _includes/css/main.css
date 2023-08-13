@@ -527,4 +527,54 @@ footer .footer-below {
     color: #444; /* Dark gray color for text */
 }
 
+#testimonials {
+    padding: 100px 0;
+}
+
+.testimonials-content {
+    margin-top: 20px;
+}
+
+.testimonials-item {
+    padding: 30px;
+    border-radius: 30px;
+    background-color:#f3f3f3;
+}
+
+.testimonials-item .info{
+    display: flex;
+    align-items: center;
+}
+
+.testimonials-item .name{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: hsl(0, 0%, 0%);
+    line-height: 1.2;
+}
+
+.testimonials-item .job{
+    color: hsl(0, 0%, 40%);
+}
+.testimonials-item p{
+    color: hsl(0, 0%, 40%);
+    margin-top: 20px;
+}
+#testimonials .swiper-pagination{
+    position: relative;
+    margin-top: 40px;
+    bottom: auto;
+}
+
+#testimonials .swiper-pagination-bullet {
+    height: 12px;
+    width: 12px;
+    background-color: hsl(0, 0%, 0%);
+}
+
+.swiper-wrapper {
+    transition-timing-function: linear;
+}
+
 
