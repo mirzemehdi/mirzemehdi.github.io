@@ -68,13 +68,14 @@ permalink: pretty
 #       permalink: ""
 
 collections:
+  medium_posts_json:
+    
   posts:
     output: false
     # permalink: /posts/:title
 
   projects:
     output: false
-
 
 plugins:
   - jekyll-seo-tag

@@ -122,6 +122,7 @@ header .intro-text .skills {
     header .intro-text .skills {
         font-size: 1.75em;
     }
+
 }
 
 @media(min-width:768px) {
@@ -193,6 +194,9 @@ section.success {
     section.first {
         padding-top: 75px;
     }
+    .blog-col-t-12{
+        width:100%
+    }
 }
 
 #portfolio .portfolio-item {
@@ -253,6 +257,8 @@ section.success {
 }
 
 /* Flexbox Portfolio Grid */
+
+
 @media (min-width: 640px) {
     .portfolio-flex-grid .portfolio-flex-row {
       display: flex;
@@ -264,12 +270,27 @@ section.success {
       flex: 1 0 49%;
       max-width: 49%;
     }
+
+    .blog-flex-grid .portfolio-flex-row {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: stretch;
+        justify-content: space-between;
+      }
+    .blog-flex-grid .portfolio-flex-row .portfolio-flex-item {
+        flex: 1 0 45%;
+        max-width: 45%;
+    }
   }
   @media (min-width: 960px) {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
       flex: 1 0 32%;
       max-width: 32%;
     }
+    .blog-flex-grid .portfolio-flex-row .portfolio-flex-item {
+        flex: 1 0 45%;
+        max-width: 45%;
+      }
   }
   /* A large grid might need four columns on widescreen layouts */
   /* @media (min-width: 1380px) {
@@ -505,3 +526,5 @@ footer .footer-below {
     margin-bottom: 20px;
     color: #444; /* Dark gray color for text */
 }
+
+
