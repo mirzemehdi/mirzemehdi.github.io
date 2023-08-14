@@ -577,4 +577,37 @@ footer .footer-below {
     transition-timing-function: linear;
 }
 
+.intro_container {
+    /* width: 300px;
+    height: 150px; */
+    background-color: #121212; /* Close to black */
+    color: white; /* Text color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5); /* Elevation (shadow) */
+    padding: 10px;
+    
+    font-size: 20px;
+}
+
+.intro-text-seperator-icon{
+    margin: 12px;
+    font-size: 24px;
+}
+
+.primary-color-bold{
+    color: #{{ site.color.primary }};
+    font-weight: bold; 
+}
+
+.primary-color-italic{
+    color: #{{ site.color.primary }};
+    font-style: italic; /* Make the text italic */
+}
+
+
+
+  
+
+
+
 

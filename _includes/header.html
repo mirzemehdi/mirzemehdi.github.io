@@ -14,10 +14,42 @@
       <div class="col-lg-6 col-lg-offset-2 text-center">
         <div class="intro-text">
           <h1>Who am I?</h1>
-          <p>I am an Android Developer with 5 years of experience in developing mobile applications for different types of businesses, 
-            startups, and clients in different fields including fintech, healthcare, logistics, and more. In my free time, 
-            I also write technical blogs related to Android Development. Some of these blogs have also been featured on websites like JetBrains, Kotlin, 
-            DroidCon, and AndroidWeekly.</p>
+          <i class="fa-solid fa-code-branch intro-text-seperator-icon"></i>
+
+          <div class="intro_container">
+
+            <span class="text-icon">
+              <i class="fa-brands fa-android"> </i>
+              I am an <span class="primary-color-bold">Android Developer</span> with <span class="primary-color-bold">5 years of experience </span> in developing mobile applications for different types of businesses, 
+              startups, and clients in various fields including <span class="primary-color-italic">fintech, healthcare, logistics</span>, and <span class="primary-color-italic">more</span>.
+          </span> 
+           
+
+          </div>
+          <i class="fa-solid fa-code-commit intro-text-seperator-icon"></i>
+          
+          <div class="intro_container">
+            <span class="text-icon">
+              <i class="fa-solid fa-blog"> </i>
+              In my free time, I also write technical blogs related to Android Development. 
+              Some of these blogs have also been featured on <span class="primary-color-italic"><a href="https://devlibrary.withgoogle.com/authors/mirzemehdi" target="_blank"> Google Dev Library</a>, <a href="https://blog.jetbrains.com/kotlin/2023/07/kudos-kotlin-multiplatform-content-creators/" target="_blank"> JetBrains </a>, <a href="https://twitter.com/kotlin/status/1678680240804044801" target="_blank">Kotlin</a>, <a href="https://www.droidcon.com/2023/05/31/achieving-platform-specific-implementations-with-koin-in-kmm/" target="_blank">DroidCon</a></span>, and <span class="primary-color-italic"> <a href="https://androidweekly.net/issues/issue-575" target="_blank">AndroidWeekly</a></span>.
+          </span> 
+           
+          </div>
+
+          <i class="fa-solid fa-code-merge intro-text-seperator-icon"></i>
+
+          <div class="intro_container">
+          <ul class="list-inline">
+            {% for network in site.social %}
+            <li>
+              <a href="{{ network.url }}" class="btn-social btn-outline" target="_blank"><i
+                  class="fa-brands fa-fw fa-{{ network.title }}"></i></a>
+            </li>
+            {% endfor %}
+          </ul>
+          
+          </div>
           
   
         </div>
