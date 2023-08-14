@@ -1,6 +1,6 @@
 ---
 layout: default
-order: 1
+order: 50
 date: 2023-08-13
 name: Samid Babayev
 job_title: Android Developer

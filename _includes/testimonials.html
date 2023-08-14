@@ -11,24 +11,40 @@
             <div class="swiper testimonials-slider js-testimonials-slider">
                 <div class="swiper-wrapper">
                     <!-- Testimonial  -->
-                    {% assign sorted_testimonials = site.testimonials | sort: 'order' %}
+                    {% assign sorted_testimonials = site.testimonials | sort: 'order' | reverse%}
                     {% for testimonial in sorted_testimonials %}
                     <div class="swiper-slide testimonials-item">
                         <div class="info">
                             <div class="text-box">
-                                <a href="{{ testimonial.linkedin_url}}" target="_blank">
-                                <h3 class="name">
-                                    
-                                    {{ testimonial.name }}
-                                    <i class="fa-brands fa-linkedin " style="color: #0A66C2;"></i> 
-                                    
 
+                                {% if testimonial.linkedin_url %}
+                                <a href="{{ testimonial.linkedin_url}}" target="_blank">
+                                    <h3 class="name">
+                                
+                                        {{ testimonial.name }}
+                                
+                                        {% if testimonial.linkedin_url %}
+                                        <i class="fa-brands fa-linkedin " style="color: #0A66C2;"></i>
+                                        {% endif %}
+                                
+                                    </h3>
+                                </a>
+                                {% else %}
+                                <h3 class="name">
+                                
+                                    {{ testimonial.name }}
+                            
+                                    {% if testimonial.linkedin_url %}
+                                    <i class="fa-brands fa-linkedin " style="color: #0A66C2;"></i>
+                                    {% endif %}
+                            
                                 </h3>
-                            </a>
+
+                                {% endif %}
                                 <span class="job">{{ testimonial.job_title }}</span>
                             </div>
                         </div>
-                        <p> <i>{{ testimonial.description }} </i></p>
+                        <p> <i>"{{ testimonial.description }}"</i></p>
                     </div>
                     {% endfor %}
                 </div>

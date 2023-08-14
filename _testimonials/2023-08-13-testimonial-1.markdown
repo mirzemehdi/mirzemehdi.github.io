@@ -1,6 +1,6 @@
 ---
 layout: default
-order: 1
+order: 60
 date: 2023-08-13
 name: Nurana Akhundzada
 job_title: QA Engineer
