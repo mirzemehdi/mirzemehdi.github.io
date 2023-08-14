@@ -16,7 +16,15 @@
                     <div class="swiper-slide testimonials-item">
                         <div class="info">
                             <div class="text-box">
-                                <h3 class="name">{{ testimonial.name }}</h3>
+                                <a href="{{ testimonial.linkedin_url}}" target="_blank">
+                                <h3 class="name">
+                                    
+                                    {{ testimonial.name }}
+                                    <i class="fa-brands fa-linkedin " style="color: #0A66C2;"></i> 
+                                    
+
+                                </h3>
+                            </a>
                                 <span class="job">{{ testimonial.job_title }}</span>
                             </div>
                         </div>
