@@ -1,6 +1,6 @@
 ---
 layout: default
-order: 90
+order: 75
 date: 2023-08-13
 name: Evhen Tekhov 
 job_title: Project Manager
