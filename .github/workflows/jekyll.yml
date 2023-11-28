@@ -10,6 +10,8 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["master"]
+  
+  workflow_dispatch:
     
   schedule:
     - cron: "0 0 * * 0" #Running each week on Sunday
