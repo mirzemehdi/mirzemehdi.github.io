@@ -43,6 +43,13 @@
             <br>
             <br>
             {% endif %}
+            {% if project.project-appstore-link %}
+            <a href="{{ project.project-appstore-link }}" class="btn btn-primary" target="_blank">
+              <i class="fab"></i> View on AppStore
+            </a>
+            <br>
+            <br>
+            {% endif %}
             {% if project.source-code-link %}
             <a href="{{ project.source-code-link }}" class="github-button btn btn-primary" target="_blank">
               <i class="fab fa-github"></i> Source Code
