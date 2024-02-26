@@ -23,7 +23,11 @@ def generate(site)
         puts "====== #{title} ======"
         puts "#{item['link']}"
         doc.data['title'] = title;
-        doc.data['image'] = item['thumbnail'];
+        description = item['description'].to_s
+        match = description.match(/<img[^>]+src="([^">]+)"/)
+        thumbnail = match ? match[1] : nil
+
+        doc.data['image'] = thumbnail;
         doc.data['link'] = item['link'];
         doc.data['date'] = item['pubDate'];
         doc.data['categories'] = item['categories'];
