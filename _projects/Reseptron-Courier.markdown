@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 modal-id: 4
 date: 2023-08-07
 img: ReseptronCourier.png

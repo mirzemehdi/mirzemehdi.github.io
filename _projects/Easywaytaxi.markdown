@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 modal-id: 6
 date: 2023-08-05
 img: EasyWayTaxi.png

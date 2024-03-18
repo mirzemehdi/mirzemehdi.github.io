@@ -78,7 +78,19 @@ collections:
     # permalink: /posts/:title
 
   projects:
-    output: false
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
 
 plugins:
   - jekyll-seo-tag

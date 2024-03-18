@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 modal-id: 5
 date: 2023-08-06
 img: RabitaBank.png

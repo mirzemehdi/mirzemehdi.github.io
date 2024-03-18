@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 modal-id: 3
 date: 2023-08-08
 title: Reseptron Customer

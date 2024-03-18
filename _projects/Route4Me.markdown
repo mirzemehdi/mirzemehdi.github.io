@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 modal-id: 1
 date: 2023-08-10
 title: Route4Me

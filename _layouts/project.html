@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body >
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <a class="navbar-brand" href="/projects">Mirzamehdi Karimov - Projects</a>
+  </nav>
+
+</br>
+
+
+  
+  <div class="container portfolio-modal">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center portfolio-modal modal-content">
+       
+          <h2>{{ page.title }}</h2>
+          <hr class="star-primary">
+          <img src="{{ site.baseurl }}/img/portfolio/{{ page.img }}" class="img-responsive img-centered" alt="{{ page.alt }}">
+          {% if page.description %}
+          <p>{{ page.description }}</p>
+          {% endif %}
+          <ul class="list-inline item-details">
+            {% if page.client %}
+            <li>Client:
+              <strong>{{ page.client }}</strong>
+            </li>
+            {% endif %}
+            {% if page.project-date %}
+            <li>Date:
+              <strong>{{ page.project-date }}</strong>
+            </li>
+            {% endif %}
+            {% if page.category %}
+            <li>Service:
+              <strong>{{ page.category }}</strong>
+            </li>
+            {% endif %}
+          </ul>
+          {% if page.project-link %}
+          <a href="{{ page.project-link }}" class="google-play-button btn btn-primary" target="_blank">
+            <i class="fab fa-google-play"></i> View on PlayStore
+          </a>
+          <br>
+          <br>
+          {% endif %}
+          {% if page.project-appstore-link %}
+          <a href="{{ page.project-appstore-link }}" class="btn btn-primary" target="_blank">
+            <i class="fab"></i> View on AppStore
+          </a>
+          <br>
+          <br>
+          {% endif %}
+          {% if page.source-code-link %}
+          <a href="{{ page.source-code-link }}" class="github-button btn btn-primary" target="_blank">
+            <i class="fab fa-github"></i> Source Code
+          </a>
+          <br>
+          <br>
+          {% endif %}
+          <button type="button" class="btn btn-default mt-4" onclick="window.history.back();"><i class="fa fa-times"></i>Close</button>
+      </div>
+      </div>
+  </div>
+
+  {% include js.html %}
+</body>
+
+</html>

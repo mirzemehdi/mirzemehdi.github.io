@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 modal-id: 2
 title: Quotes MultiPlatform App
 date: 2023-08-09

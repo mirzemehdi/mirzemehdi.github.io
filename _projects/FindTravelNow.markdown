@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 modal-id: 0
 date: 2023-08-11
 title: FindTravelNow

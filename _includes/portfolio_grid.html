@@ -12,13 +12,13 @@
       {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
       {% for project in sorted_projects %}
       <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-{{ project.modal-id }}" class="portfolio-link" data-toggle="modal">
+        <a href="{{project.url}}" class="portfolio-link" data-toggle="modal">
           <div class="caption">
             <div class="caption-content">
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-          <img src="img/portfolio/{{ project.img }}" class="img-responsive" alt="{{ project.alt }}">
+          <img src="{{ site.baseurl }}/img/portfolio/{{ project.img }}" class="img-responsive" alt="{{ project.alt }}">
         </a>
       </div>
       {% endfor %}
