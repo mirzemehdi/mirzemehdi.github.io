@@ -27,14 +27,14 @@ def generate(site)
         puts "#{item['url']}"
         doc.data['title'] = title;
         doc.data['link'] = item['url'];
-        # doc.data['description'] = item['description'];
+        doc.data['description'] = item['description'];
 
 
 
         # Fetch README content from GitHub API
-        # readme_uri = URI(readme_url)
-        # readme_response = Net::HTTP.get(readme_uri).force_encoding 'utf-8'
-        # doc.content = readme_response
+        readme_uri = URI(readme_url)
+        readme_response = Net::HTTP.get(readme_uri).force_encoding 'utf-8'
+        doc.content = readme_response
 
         jekyll_coll.docs << doc
       end
