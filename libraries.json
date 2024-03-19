@@ -1,0 +1,17 @@
+{
+    "items": [
+      {
+        "url": "https://github.com/mirzemehdi/KMPNotifier/",
+        "title": "KMPNotifier - Kotlin Multiplatform Push Notification Library"
+      },
+      {
+        "url": "https://github.com/mirzemehdi/KMPAuth/",
+        "title": "KMPAuth - Kotlin Multiplatform Authentication Library"
+      },
+      {
+        "url": "https://github.com/mirzemehdi/KMPRevenueCat/",
+        "title": "KMPRevenueCat - Kotlin Multiplatform RevenueCat Library (UNOFFICIAL)"
+      }
+    ]
+  }
+  
