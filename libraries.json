@@ -2,15 +2,23 @@
     "items": [
       {
         "url": "https://github.com/mirzemehdi/KMPNotifier/",
-        "title": "KMPNotifier - Kotlin Multiplatform Push Notification Library"
+        "readme_url": "https://raw.githubusercontent.com/mirzemehdi/KMPNotifier/main/README.md",
+        "title": "KMPNotifier - Kotlin Multiplatform Push Notification Library",
+        "description": "Simple and easy to use Kotlin Multiplatform Push Notification library (using Firebase Cloud Messaging) targeting ios and android."
+
       },
       {
         "url": "https://github.com/mirzemehdi/KMPAuth/",
-        "title": "KMPAuth - Kotlin Multiplatform Authentication Library"
+        "readme_url": "https://raw.githubusercontent.com/mirzemehdi/KMPAuth/main/README.md",
+        "title": "KMPAuth - Kotlin Multiplatform Authentication Library",
+        "description": "Simple and easy to use Kotlin Multiplatform Authentication library targeting iOS and Android. Supporting Google, Apple, Github authentication integrations using Firebase."
+
       },
       {
         "url": "https://github.com/mirzemehdi/KMPRevenueCat/",
-        "title": "KMPRevenueCat - Kotlin Multiplatform RevenueCat Library (UNOFFICIAL)"
+        "readme_url": "https://raw.githubusercontent.com/mirzemehdi/KMPRevenueCat/main/README.md",
+        "title": "KMPRevenueCat - Kotlin Multiplatform RevenueCat Library (UNOFFICIAL)",
+        "description": "KMPRevenueCat is an unofficial Kotlin Multiplatform library designed as a wrapper for RevenueCat. It provides a unified API for managing subscription and in-app purchases across both iOS and Android platforms."
       }
     ]
   }

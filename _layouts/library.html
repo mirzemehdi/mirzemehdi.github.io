@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body id="page-top" class="index">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <a class="navbar-brand" href="/libraries">Mirzamehdi Karimov - Libraries</a>
+  </nav>
+</br>
+
+<br>
+
+
+<section id="library">
+
+
+  <div class="container  blog-flex-grid">
+     
+        {% assign post = page %}
+          
+              <a href="{{ post.link | absolute_url }}">
+                  <h3 class="post-title">{{ post.description | strip_html }}</h3>
+              </a>
+              
+              
+              <div style="display: flex; align-items: center; justify-content: center; max-height: 200px; overflow: hidden; ">
+
+                  <a href="{{ post.link }}" class="github-button btn btn-primary" target="_blank">
+                    <i class="fab fa-github"></i> Github Source Code
+                  </a>
+
+                </a>
+              </div>
+              
+              
+
+              <br>
+
+              
+              {{ content | markdownify }}
+
+        
+
+      
+  </div>
+</section>
+
+  {% include js.html %}
+</body>
+
+</html>

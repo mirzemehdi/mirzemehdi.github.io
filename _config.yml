@@ -80,6 +80,9 @@ collections:
 
   projects:
     output: true
+  
+  libraries:
+    output: true
 
 defaults:
   - scope:
@@ -87,6 +90,11 @@ defaults:
       type: "blogs"
     values:
       layout: "blog"
+  - scope:
+      path: ""
+      type: "libraries"
+    values:
+      layout: "library"
   - scope:
       path: ""
       type: "projects"
