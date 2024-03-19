@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body id="page-top" class="index">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <a class="navbar-brand" href="/blogs">Mirzamehdi Karimov - Blogs</a>
+  </nav>
+</br>
+
+
+<section id="blogs">
+  <div class="container  blog-flex-grid">
+      <div class="">
+        {% assign post = page %}
+          <div class="">
+
+
+
+
+              <a href="{{ post.url | absolute_url }}">
+                  <h3 class="post-title">{{ post.title | strip_html }}</h3>
+              </a>
+              
+              
+              <div style="display: flex; align-items: center; justify-content: center; max-height: 200px; overflow: hidden; border: 1px solid #ccc; border-radius: 5px;">
+                <a href="{{ post.link | absolute_url }}" target="_blank" style="text-decoration: none; color: inherit; display: flex; align-items: center;">
+                  <div style="display: flex; align-items: center; margin-top: 6px;">
+                    <p class="post-title" >Read on: </p>
+                  </div>
+                  <img src="{{ "/img/medium_logo.png" | prepend: site.baseurl }}" alt="Medium" style="width: 150px; height: auto; margin: 16px;">
+                </a>
+              </div>
+              
+              
+
+              <br>
+
+              <p class="post-meta">
+                  {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+                  <i>Posted on {{ post.date | date: date_format }}</i>
+              </p>
+
+
+
+              <div class="post-entry">
+                  {{ post.full_description }}
+                  <a href="{{ post.link | absolute_url }}" class="post-read-more">[Read&nbsp;on Medium]</a>
+              </div>
+
+
+          </div>
+
+      </div>
+  </div>
+</section>
+
+  {% include js.html %}
+</body>
+
+</html>

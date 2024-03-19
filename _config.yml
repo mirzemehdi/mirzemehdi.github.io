@@ -68,7 +68,8 @@ permalink: pretty
 #       permalink: ""
 
 collections:
-  medium_posts_json:
+  blogs:
+    output: true
 
   testimonials:
 
@@ -81,6 +82,11 @@ collections:
     output: true
 
 defaults:
+  - scope:
+      path: ""
+      type: "blogs"
+    values:
+      layout: "blog"
   - scope:
       path: ""
       type: "projects"

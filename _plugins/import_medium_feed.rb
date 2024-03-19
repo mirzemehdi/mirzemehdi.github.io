@@ -7,8 +7,8 @@ module Jekyll
     safe true
     priority :high
 def generate(site)
-      jekyll_coll = Jekyll::Collection.new(site, 'medium_posts_json')
-      site.collections['medium_posts_json'] = jekyll_coll
+      jekyll_coll = Jekyll::Collection.new(site, 'blogs')
+      site.collections['blogs'] = jekyll_coll
       uri = URI("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@mirzemehdi")
       http = Net::HTTP.new(uri.host, uri.port)
       http.use_ssl = true
@@ -17,7 +17,8 @@ def generate(site)
       data = JSON.parse(response.read_body)
       data['items'].each do |item|
         title = item['title']
-        path = "./medium_posts/" + title + ".md"
+        pathTitle = title.downcase.gsub(' ', '-')
+        path = "#{pathTitle}.md"
         path = site.in_source_dir(path)
         doc = Jekyll::Document.new(path, { :site => site, :collection => jekyll_coll })
         puts "====== #{title} ======"
@@ -34,6 +35,7 @@ def generate(site)
         doc.data['author'] = item['author'];
         html_document = Nokogiri::HTML(item['description']);
         doc.data['description'] = html_document.search('p').to_html;
+        doc.data['full_description'] = item['description'];
         jekyll_coll.docs << doc
       end
     end

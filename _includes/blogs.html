@@ -8,17 +8,17 @@
             </div>
         </div>
         <div class="portfolio-flex-row">
-            {% for post in site.medium_posts_json %}
+            {% for post in site.blogs %}
             <div class="portfolio-flex-item portfolio-item">
 
 
 
 
-                <a href="{{ post.link | absolute_url }}">
+                <a href="{{ post.url | absolute_url }}">
                     <h3 class="post-title">{{ post.title | strip_html }}</h3>
                 </a>
 
-                <a href="{{ post.link | absolute_url }}" aria-label="Thumbnail">
+                <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
                     <img src="{{ post.image | absolute_url }}" class="img-responsive" alt="Post thumbnail">
                 </a>
                 <br>
