@@ -58,6 +58,7 @@ credits: 'Theme created by <a href="https://github.com/jeromelachaud/freelancer-
 # Build settings
 markdown: kramdown
 permalink: pretty
+trailing_slash: false
 
 #for posts
 # defaults:
