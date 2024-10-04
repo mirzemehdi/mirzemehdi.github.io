@@ -17,7 +17,7 @@ description: >
     <p><strong>Navigation/Onboarding</strong>: Ready-to-use navigation using Voyager and onboarding screens to welcome users.</p>
     <p><strong>Dependency Injection</strong>: Uses Koin for a clean and scalable architecture.</p>
     <p><strong>CI/CD Integrations</strong>: GitHub Actions support for building and publishing to PlayStore and AppStore.</p>
-    <p><strong>Documentation</strong>: Check the documentation <a href="https://docs.kappmaker.com/docs">here</a>.</p>
+    <p><strong>Documentation</strong>: Check the documentation <a href="https://docs.kappmaker.com/" target="_blank">here</a>.</p>
   
   
   <p>Check out KAppMaker at <a href="https://kappmaker.com/" target="_blank">kappmaker.com</a>!</p>
