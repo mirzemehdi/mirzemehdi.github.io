@@ -15,5 +15,5 @@ description:  "<p>With Reseptron Courier app, couriers can track their orders an
  <p>-View the location of pharmacy and delivery of the order </p>
  <p>-Obtaining information about order history </p>
  <p>-Sending a notification to the operator if there is any problem with the order </p>
-<p>-Information on order statistics </p>" 
+ <p>-Information on order statistics </p>" 
 ---
